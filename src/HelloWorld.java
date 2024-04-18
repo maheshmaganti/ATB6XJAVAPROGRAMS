@@ -2,8 +2,15 @@ public class HelloWorld {
 
     public static void main(String[] args) {
 
-       System.out.println("k amo");
-       System.out.println("hj");
+   int a = 10;
+
+        System.out.println(++a + a++ + a++);
+
+
+        System.out.println(a);
+
+
+
     }
 
 
